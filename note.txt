@@ -1,0 +1,8 @@
+1. Run Ps as administrator
+2.   Install-Module -Name Az -Force   {ONLY once  }
+
+3. you may have  multiple  suscription.see all:
+ az account list --query "[].{Id:id,IsDefault:isDefault,Name:name,TenantId:tenantId}"
+
+4. set the  default suscriiption
+az account set --subscription 0c9dbe95-0d4e-481a-b2b3-150c0098cbcc
