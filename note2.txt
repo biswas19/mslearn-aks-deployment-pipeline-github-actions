@@ -1,0 +1,16 @@
+contosocontainerregistry24425.azurecr.io
+
+az acr credential show --name contosocontainerregistry24425.azurecr.io --query "username" -o table
+ContosoContainerRegistry24425
+
+az acr credential show --name contosocontainerregistry24425.azurecr.io --query "passwords[0].value" -o table
+b4L6wB6YUYtqYUSJIW8Eyx1ksSr2i/2=
+
+
+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   git hub token
+
+----GIT---
+git  stage
+git add .
+git commit
+git push

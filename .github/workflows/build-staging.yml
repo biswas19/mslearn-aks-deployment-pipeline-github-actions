@@ -17,9 +17,9 @@ jobs:
       - name: Docker Login
         uses: docker/login-action@v1
         with:
-          registry: contosocontainerregistry24425.azurecr.io
-          username: ContosoContainerRegistry24425
-          password: b4L6wB6YUYtqYUSJIW8Eyx1ksSr2i/2=
+          registry: ContosoContainerRegistry5257.azurecr.io
+          username: ContosoContainerRegistry5257
+          password: p47pWMnwngJzyiJALkVo=uv+ds75aTpy
 
       - name: Build and push staging images
         uses: docker/build-push-action@v2
